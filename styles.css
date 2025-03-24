@@ -250,7 +250,7 @@ p {
 .hero {
   position: relative;
   padding: 5rem 0;
-  min-height: calc(100vh - 4rem);
+  min-height: calc(53vh - 3rem);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -269,8 +269,8 @@ p {
 
 .hero-content {
   display: flex;
-  flex-direction: column;
-  gap: 3rem;
+flex-direction: column;
+gap: 5rem;
 }
 
 .hero-text {
@@ -821,7 +821,7 @@ object-fit: contain;
 
   .hero {
     min-height: auto;
-    padding: 3rem 0;
+    padding: 6rem 0;
   }
 
   .profile-image {
