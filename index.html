@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amin Mohamed Abou Amasha - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-outline" id="cursor-outline"></div>
+  <div class="cursor-trail" id="cursor-trail"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">Amin Mohamed Abou Amasha</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!-- Mobile menu button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div id="animated-bg" class="animated-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Hi, I'm <span class="highlight" id="animated-text">Amin Mohamed Abou Amasha</span></h1>
+          <p class="hero-subtitle">A passionate web developer creating beautiful digital experiences</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#projects" class="btn btn-secondary">View my work</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div id="hero-3d" class="hero-3d"></div>
+          <div class="floating-icons" id="floating-icons"></div>
+          <div class="profile-image">
+            <img src="./profile.jpg" alt="Amin Mohamed Abou Amasha">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello! I'm a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy creating responsive, user-friendly websites and applications that solve real-world problems.</p>
+          <p>With a background in [your background], I bring a unique perspective to my development work. I'm constantly learning new technologies and techniques to improve my skills and deliver better results.</p>
+          <p>When I'm not coding, you can find me [your hobbies/interests].</p>
+        </div>
+        <div class="about-cards">
+          <div class="card">
+            <h3>Education</h3>
+            <p>
+              bac2 ,2021 <br>
+              abdelmalek essaâdi university  ,2022/2021 
+              solicode ,2024</p>
+            <p class="card-meta">Year - 2024</p>
+          </div>
+          <div class="card">
+            <h3>Location</h3>
+            <p>Tanger, HAY JIRARI 01 RUE 11 N 32 TANGER</p>
+            <p class="card-meta">Available for remote work</p>
+          </div>
+          <div class="card">
+            <h3>Interests</h3>
+            <p>Web Development</p>
+            <p>UI/UX Design</p>
+            <p class="card-meta">BackEnd soon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="90"></div>
+          </div>
+          <p class="skill-percentage">90%</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="85"></div>
+          </div>
+          <p class="skill-percentage">85%</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="80"></div>
+          </div>
+          <p class="skill-percentage">80%</p>
+        </div>
+        <div class="skill-card">
+          <h3>React</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="75"></div>
+          </div>
+          <p class="skill-percentage">75%</p>
+        </div>
+        <div class="skill-card">
+          <h3>Node.js</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="70"></div>
+          </div>
+          <p class="skill-percentage">70%</p>
+        </div>
+        <div class="skill-card">
+          <h3>UI/UX Design</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="65"></div>
+          </div>
+          <p class="skill-percentage">65%</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="80"></div>
+          </div>
+          <p class="skill-percentage">80%</p>
+        </div>
+        <div class="skill-card">
+          <h3>Responsive Design</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="85"></div>
+          </div>
+          <p class="skill-percentage">85%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Screenshot 2025-03-23 175322.png" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <h3>Dashboard</h3>
+            <p>- Responsive Design: The project is designed to be responsive and suitable for all devices, ensuring a seamless user experience on mobile phones, tablets, and desktops.
+              - Element Animation: Utilizing advanced CSS techniques, I have created smooth and attractive animations for various web elements, making the interaction with the site engaging and enjoyable.
+              - Font Awesome Icons: The Font Awesome library is integrated to provide high-quality icons that add a professional and aesthetic touch to the project.
+              </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://amine-mohamed77.github.io/Dashboard/" class="project-link">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/amine-mohamed77/Dashboard.git" class="project-link">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Screenshot 2025-03-23 180815.png" alt="Project 2">
+          </div>
+          <div class="project-content">
+            <h3>Guess The Word</h3>
+            <p>"Guess The Word" is an interactive word-guessing game designed to test players' intelligence and language skills by challenging them to guess a hidden word based on given hints. The game is built using HTML, CSS, and JavaScript, featuring an engaging design and smooth user experience to make gameplay fun and challenging.
+
+              The game includes multiple difficulty levels, allowing players to interact with words in creative ways, such as entering letters, receiving hints, and managing limited attempts. It can be used as an educational tool or simply as an entertaining game.
+              
+              Features:
+              ✅ Simple and user-friendly interface.
+              ✅ Hint system to assist players.
+              ✅ Adjustable difficulty levels.
+              ✅ Interactive experience powered by JavaScript for dynamic content updates.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://amine-mohamed77.github.io/play-Guess-The-Word/" class="project-link">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/amine-mohamed77/play-Guess-The-Word.git" class="project-link">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./marjan.png" alt="Project 3">
+          </div>
+          <div class="project-content">
+            <h3>Web site Marjane</h3>
+            <p>Marjan Market is a modern e-commerce website designed to provide users with a seamless and secure online shopping experience. Developed using HTML, CSS, and JavaScript, with integrated Frontend and Backend technologies, the website ensures fast performance and a smooth user journey.
+
+              The platform offers a wide range of products with an advanced categorization system, a dynamic shopping cart, and multiple payment options to meet customer needs. It also features a responsive design, allowing users to shop anytime, anywhere, from any device.
+              
+              Key Features:
+              ✅ Modern and user-friendly interface.
+              ✅ Advanced search and product categorization.
+              ✅ Shopping cart and secure online payment integration.
+              ✅ Fully responsive design for all devices.
+              ✅ Flexible content management system for easy product and offer updates.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/amine-mohamed77/site-marjane.git" class="project-link">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out to me for collaboration, job opportunities, or just to say hello!</p>
+          <div class="contact-links">
+            <div class="contact-item">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="aminmohamedaboamasha@gmail.com">aminmohamedaboamasha@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <a href="https://linkedin.com/in/amin-mohamed-4667a1245" target="_blank">https://linkedin.com/in/amin-mohamed-4667a1245</a>
+            </div>
+            <div class="contact-item">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <a href="https://github.com/amine-mohamed77" target="_blank">https://github.com/amine-mohamed77</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your.email@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Amin Mohamed Abou Amasha</p>
+          <p class="footer-copyright">© <span id="current-year"></span> All Rights Reserved</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/amine-mohamed77" target="_blank" class="social-link">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="https://linkedin.com/in/amin-mohamed-4667a1245" target="_blank" class="social-link">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="aminmohamedaboamasha@gmail.com" class="social-link">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
+
